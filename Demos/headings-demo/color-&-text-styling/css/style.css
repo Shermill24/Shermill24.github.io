@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    
+    
+
+}
+#first-paragraph{
+    color: blue;
+    background-color: ;
+}
+#second-paragraph{
+    color: #FF0000;
+}
+#bold-paragraph{
+    font-weight: bold;
+}
