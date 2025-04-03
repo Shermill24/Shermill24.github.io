@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#palette-1-heading {
+    font-family: cursive;
+    text-align: center;
+}
+
+#palette-1-color{
+    background-color: #e76f51;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette-2-color{
+    background-color: #f4a261;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette-3-color{
+    background-color: #e9c46a;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
