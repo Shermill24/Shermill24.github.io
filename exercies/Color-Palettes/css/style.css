@@ -17,7 +17,7 @@ body {
     color: black;
     font-family: cursive;
     text-align: center;
-    padding: 24px;
+    padding: 14px;
 }
 
 #palette-2-color{
@@ -25,7 +25,7 @@ body {
     color: black;
     font-family: cursive;
     text-align: center;
-    padding: 24px;
+    padding: 14px;
 }
 
 #palette-3-color{
@@ -33,5 +33,59 @@ body {
     color: black;
     font-family: cursive;
     text-align: center;
-    padding: 24px;
+    padding: 14px;
 }
+#palette-4-color{
+    background-color: #2a9d8f;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 14px;
+}
+#palette-5-color{
+    background-color: #264653;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 14px;
+}
+#palette-2-heading{
+    font-family: cursive;
+    text-align: center;
+}
+#palette-1-color{
+    background-color: #f492a5;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 14px;
+}
+#palette-2-color{
+    background-color: #f9cbd0;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 14px;
+}
+#palette-3-color{
+    background-color: #f7e8d8;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
