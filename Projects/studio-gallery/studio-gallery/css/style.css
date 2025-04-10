@@ -18,7 +18,12 @@
 #pic2 {
     width: 130px;
     margin-top: 25px;
-    border: 5px solid indigo;
+    border: 10px solid royalblue ;
     padding: 10px;
-    background-color: brown;
+    background-color: palevioletred;
+}
+
+.h2 {
+   background-color: goldenrod;
+    
 }
