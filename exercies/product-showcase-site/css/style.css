@@ -8,12 +8,16 @@ body {
 }
 
 .single-column {
-    background-color: rgb(180, 173, 173);
+    background-color: rgb(234, 224, 224);
     width: 50%;
     min-width: 500px;
+    margin: 50px;
+}
+.S24-titaniumyellow {
+    background-color: rgb(230, 216, 25);
+    width: 50%;
     margin: auto;
 }
-
 
 
 
