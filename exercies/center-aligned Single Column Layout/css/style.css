@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    background-color: rgb(180, 173, 173);
+    width: 50%;
+    min-width: 500px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
