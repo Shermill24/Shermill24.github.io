@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#column-1 {
+    background-color: aqua;
+}
+#column-2 {
+    background-color: coral;
+}
+#column-3 {
+    background-color: lightgreen;
+}

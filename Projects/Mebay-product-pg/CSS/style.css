@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#header {
+    grid-area: header;
+    padding: 8px 36px;
+}
+#header a {
+    text-decoration: none;
+}
+
+#header #me {
+    color: #111111;
+}
+
+#header #bay {
+    color: darkblue;
+    background-color: red;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr;
+    grid-template-areas: auto;
+}
+#sidebar-column-1 {
+    background-color: lightpink;
+}
+
+#primary-column {
+    background-color: lightgreen;
+}
+
+#sidebar-column-2 {
+    background-color: lightblue;
+}
