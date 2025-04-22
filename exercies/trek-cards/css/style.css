@@ -1,0 +1,139 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+#trek-card-1 {
+    background-color: rgb(229, 237, 228);
+    width: 350px;
+    border: 5px;
+    box-shadow: 4px 4px 8px #00000088;
+}
+
+.card-style-1 img {
+    width: 100%;
+}
+.card-style-1 h2 {
+    font-size: 25px;
+    margin: 14px;
+}
+.card-style-1 p {
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.card-style-1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: rgb(7, 113, 7);
+    display: inline-block;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+}
+
+#trek-card-2 {
+    background-color: rgb(229, 237, 228);
+    width: 350px;
+    border: 5px;
+    box-shadow: 4px 4px 8px #00000088;
+}
+.card-style-1 img {
+    width: 100%;
+}
+.card-style-1 h2 {
+    font-size: 25px;
+    margin: 14px;
+}
+.card-style-1 p {
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.card-style-1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: rgb(7, 113, 7);
+    display: inline-block;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+}
+#trek-card-3 {
+    background-color: rgb(229, 237, 228);
+    width: 350px;
+    border: 5px;
+    box-shadow: 4px 4px 8px #00000088;
+}
+.card-style-1 img {
+    width: 100%;
+}
+.card-style-1 h2 {
+    font-size: 25px;
+    margin: 14px;
+}
+.card-style-1 p {
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.card-style-1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: rgb(7, 113, 7);
+    display: inline-block;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+}
+
+#trek-card-4 {
+    background-color: rgb(229, 237, 228);
+    width: 350px;
+    border: 5px;
+    box-shadow: 4px 4px 8px #00000088;
+}
+.card-style-1 img {
+    width: 100%;
+}
+.card-style-1 h2 {
+    font-size: 25px;
+    margin: 14px;
+}
+.card-style-1 p {
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.card-style-1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: rgb(7, 113, 7);
+    display: inline-block;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+}
+
+
+

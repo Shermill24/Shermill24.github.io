@@ -9,6 +9,7 @@ body {
 #header {
     grid-area: header;
     padding: 8px 36px;
+    
 }
 #header a {
     text-decoration: none;
@@ -16,11 +17,14 @@ body {
 
 #header #me {
     color: #111111;
+    background-color: ;
 }
 
 #header #bay {
-    color: darkblue;
+    color: white;
     background-color: red;
+    padding: 4px;
+    border-radius: 12px;
 }
 
 #grid-layout {
