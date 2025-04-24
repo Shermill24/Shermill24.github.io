@@ -33,13 +33,13 @@ body {
     grid-template-areas: auto;
 }
 #sidebar-column-1 {
-    background-color: lightpink;
+    background-color: white;
 }
 
 #primary-column {
-    background-color: lightgreen;
+    background-color: gray;
 }
 
 #sidebar-column-2 {
-    background-color: lightblue;
+    background-color: white;
 }
