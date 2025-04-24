@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#Have-Fun {
+    background-image: url("../Images/eminent-luggage-FSzdxC59StM-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+#Have-Fun h1 {
+    font-size: 50px;
+    padding: 100px;
+}
