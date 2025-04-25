@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#nav {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+}
+#nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#hero {
+    background-image: url("../images/urban-hi-res-3q76.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero .hero-content {
+    text-align: right;
+    position: absolute;
+}
+#hero h2 {
+    color: white;
+    font-size: 60px;
+    right: 20%;
+    bottom: 50%;
+}
+#hero a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+#hero a:hover {
+    background-color: transparent;
+    border: 3px solid rgb(65, 63, 63);
+    color: white;
+}
+#layout {
+    background-color: #333333;
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+
+.gallery-columns {
+    columns: 3 auto;
+    column-gap: 24px;
+
+}
+.gallery-columns img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+
