@@ -6,6 +6,15 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#background {
+    background-image: url("../Images/bia-w-a-PO8Woh4YBD8-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 24px;
+
+} 
+
 #nav {
     background-color: #222222;
     display: flex;
@@ -19,7 +28,7 @@ body {
 }
 
 #hero {
-    background-image: url("../images/urban-hi-res-3q76.jpg");
+    background-image: url("../Images/urban-hi-res-3q76.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -36,9 +45,10 @@ body {
 }
 #hero h2 {
     color: white;
-    font-size: 60px;
-    right: 20%;
+    font-size: 70px;
+    right: 5%;
     bottom: 50%;
+    position: absolute;
 }
 #hero a {
     font-size: 14px;
@@ -56,8 +66,8 @@ body {
     border: 3px solid rgb(65, 63, 63);
     color: white;
 }
+
 #layout {
-    background-color: #333333;
     max-width: 800px;
     margin: 48px auto;
     text-align: center;
@@ -73,5 +83,27 @@ body {
     width: 100%;
     margin-bottom: 24px;
 }
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+    align-content: center;
+}
+.card {
+    width: 350px;
+    border: 2px solid #ffe4da;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px;
+    background: linear-gradient(blue,lightblue);
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
+
+
 
 
