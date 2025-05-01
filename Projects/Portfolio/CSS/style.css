@@ -8,7 +8,7 @@ body {
 }
 
 #background {
-    background-image: url("../Images/bia-w-a-PO8Woh4YBD8-unsplash.jpg");
+    background-image: url("../Images/pawel-czerwinski-z7prq6BtPE4-unsplash.jpg");
     background-size: cover;
     background-position: center center;
     padding-bottom: 24px;
@@ -56,6 +56,7 @@ body {
     background-color: #333333;
     color: white;
     text-decoration: none;
+    margin: 24px;
     padding: 24px;
     transition:
         background-color .5s,
@@ -64,13 +65,17 @@ body {
 #hero a:hover {
     background-color: transparent;
     border: 3px solid rgb(65, 63, 63);
-    color: white;
+    color: plum;
 }
 
 #layout {
     max-width: 800px;
     margin: 48px auto;
     text-align: center;
+}
+#layout h1 {
+    color: white;
+    font-size: 50px;
 }
 
 
@@ -92,18 +97,37 @@ body {
 }
 .card {
     width: 350px;
-    border: 2px solid #ffe4da;
+    margin: 7px;
+    border: 3px solid #ffe4da;
     border-radius: 5px;
     padding: 10px;
     box-shadow: -4px 4px 12px;
-    background: linear-gradient(blue,lightblue);
+    background: linear-gradient(rgb(179, 10, 145),rgb(61, 17, 218), rgb(20, 20, 20));
 }
 
 .card h2 {
     font-size: 36px;
     margin-top: 12px;
 }
-
+.card a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(102, 131, 212);
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid gray;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+.card a:hover {
+    background-color: transparent;
+    color: lightcoral;
+}
 
 
 
