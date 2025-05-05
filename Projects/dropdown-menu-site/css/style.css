@@ -6,14 +6,18 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
 #background {
-    background-image: url("../Images/beast-back-cover.webp");
+    background-image: url(
+        ../images/fantastic-beast.webp);
     background-size: cover;
     background-position: center center;
     padding-bottom: 24px;
 }
+
 #navbar {
-    background: linear-gradient(to bottom, #d8d20f, #0e5b96);
+    background: linear-gradient(to bottom, #cd7f48, #dcb2af,#3c346c,
+    #d5d5bf,#9b7a5a,royalblue);
     display: flex;
     align-items: center;
 }
@@ -34,6 +38,7 @@ body {
 }
 .dropdown-container {
     position: relative;
+    font-size: 24px;
 }
 
 .dropdown-menu {
@@ -42,7 +47,8 @@ body {
     visibility: hidden;
     transition: 
         opacity 0.25s,
-        visibility 0.25s;
+        visibility 0.25s
+    ;
 }
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
@@ -62,4 +68,22 @@ body {
 #navbar .dropdown-menu a:hover {
     background: slateblue;
 }
-
+#hero {
+    background-image: url(../images/magic\ and\ normal\ animals.jpg);
+    height: 40vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+#layout {
+    background-color: antiquewhite;
+    border-radius: 40px;
+    margin: 30px;
+    padding: 24px;
+    text-align: center;
+}
