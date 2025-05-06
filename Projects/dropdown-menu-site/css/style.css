@@ -5,15 +5,13 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-}
-
-#background {
     background-image: url(
         ../images/fantastic-beast.webp);
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     padding-bottom: 24px;
 }
+
 
 #navbar {
     background: linear-gradient(to bottom, #cd7f48, #dcb2af,#3c346c,
@@ -70,20 +68,29 @@ body {
 }
 #hero {
     background-image: url(../images/magic\ and\ normal\ animals.jpg);
-    height: 40vh;
-    position: relative;
+    height: 80vh;
     background-size: cover;
-    background-position: center center;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: flex-end;
+    background-position: center center; 
     margin-bottom: 100px;
 }
 #layout {
-    background-color: antiquewhite;
+    background-color: #FFFFFFCC;
     border-radius: 40px;
     margin: 30px;
     padding: 24px;
     text-align: center;
+}
+.single-column {
+    width: 700px;
+    padding: 40px;
+    margin: 25px auto;
+    background-color: #FFFFFFCC;
+    border-radius: 50px;
+
+}
+.single-column img {
+    width: 70%;
+    border-radius: 50px;
+
+
 }
