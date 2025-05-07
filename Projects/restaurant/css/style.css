@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/tropical.jpg);
+    background-size: cover;
+    background-position:  center;
+    padding-bottom: 15px;
+}
+
+
+#navbar {
+    background: linear-gradient(to bottom, #4ec9ff,#3ef1fc,orange,#5dffcf,
+    #0abb28);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, 
+    orange,
+    #4ec9ff,
+    #3ef1fc,
+    #5dffcf,
+    #0abb28);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+#navbar img {
+    width: 150px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: rgb(0, 213, 255);
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background:rgb(0, 38, 255);
+}
+#hero {
+    background-image: url(../images/tropical\ restaurants.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#hero .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+
+#hero h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+#hero a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 24px;
+}
