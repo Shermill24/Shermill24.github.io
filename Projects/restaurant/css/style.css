@@ -11,12 +11,16 @@ body {
     padding-bottom: 15px;
 }
 
-
+#header a {
+    
+}
 #navbar {
     background: linear-gradient(to bottom, #4ec9ff,#3ef1fc,orange,#5dffcf,
     #0abb28);
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #navbar a {
@@ -26,30 +30,16 @@ body {
     padding: 24px;
 }
 
-#navbar #logo {
-    margin-right: auto;
-    font-weight: bold;
-    font-size: 36px;
-}
-
 #navbar a:hover {
     background: linear-gradient(to top, 
     orange,
     #4ec9ff,
-    #3ef1fc,
     #5dffcf,
     #0abb28);
 }
-
-#navbar #logo {
-    margin-right: auto;
-    font-weight: bold;
-    font-size: 36px;
-    padding-top: 13px;
-    padding-bottom: 12px;
-}
 #navbar img {
     width: 150px;
+    padding: 13px 0px;
 }
 
 .dropdown-container {
@@ -75,26 +65,29 @@ body {
 }
 
 #navbar .dropdown-menu a:hover {
-    background:rgb(0, 38, 255);
+    background:orange;
 }
 #hero {
-    background-image: url(../images/tropical\ restaurants.jpg);
-    height: 400px;
+    background-image: url(../images/afeeq-nadzrin-rIhcqUebiGw-unsplash.jpg);
+    height: 100vh;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 #hero .hero-content {
+    text-align: right;
     position: absolute;
-    top: 10%;
-    left: 15%;
+    top: 5%;
+    right: 10%;
 }
 
-#hero h2 {
-    font-size: 72px;
-    margin-bottom: 36px;
+#hero h1 {
+    
+    font-size: 150px;
+    margin-bottom: 60px;
 }
 
 #hero h3 {
@@ -111,4 +104,21 @@ body {
     padding: 24px;
     margin-top: 36px;
     margin-right: 24px;
+}
+
+.specials-menu {
+    background-image: url(../images/download.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 100px;
+}
+#menu-container {
+    text-align: center;
+}
+.links {
+    display: flex;
+    align-items: center; 
 }
