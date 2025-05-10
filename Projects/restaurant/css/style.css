@@ -11,8 +11,10 @@ body {
     padding-bottom: 15px;
 }
 
-#header a {
-    
+#header img {
+    width: 150px;
+    padding: 13px 0px;
+    align-items: center;
 }
 #navbar {
     background: linear-gradient(to bottom, #4ec9ff,#3ef1fc,orange,#5dffcf,
@@ -36,10 +38,6 @@ body {
     #4ec9ff,
     #5dffcf,
     #0abb28);
-}
-#navbar img {
-    width: 150px;
-    padding: 13px 0px;
 }
 
 .dropdown-container {
@@ -68,8 +66,8 @@ body {
     background:orange;
 }
 #hero {
-    background-image: url(../images/afeeq-nadzrin-rIhcqUebiGw-unsplash.jpg);
-    height: 100vh;
+    background-image: url(../images/buff.jpg);
+    height: 60vh;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -84,10 +82,11 @@ body {
     right: 10%;
 }
 
-#hero h1 {
-    
-    font-size: 150px;
+#hero h2 {
+    font-size: 35px;
     margin-bottom: 60px;
+    align-content: center;
+    
 }
 
 #hero h3 {
@@ -105,16 +104,21 @@ body {
     margin-top: 36px;
     margin-right: 24px;
 }
-
-.specials-menu {
-    background-image: url(../images/download.jpg);
-    height: 50vh;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    position: relative;
-    margin-bottom: 100px;
+#main-gallery {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
 }
+.vertical-masonry-gallery {
+    columns: 3 auto; 
+    column-gap: 20px;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
 #menu-container {
     text-align: center;
 }
